@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".abt"
+    android:background="@drawable/covid2">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/qs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n\nHow it \nSpreads"
+        android:textColor="@color/colorWhite"
+        android:textSize="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:id="@+id/threeb"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:background="@drawable/custombutton"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="150dp"
+
+        />
+
+</FrameLayout>

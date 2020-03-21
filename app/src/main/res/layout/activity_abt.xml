@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".abt"
+    android:background="@drawable/covid2">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/qs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n\nwhat is coronavirus"
+        android:textColor="@color/colorWhite"
+        android:textSize="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS)."
+        android:layout_marginTop="250dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+    />
+
+    <Button
+        android:id="@+id/strt"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:background="@drawable/custombutton"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="150dp"
+
+        />
+
+</FrameLayout>

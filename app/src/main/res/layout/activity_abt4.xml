@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".abt"
+    android:background="@drawable/covid2">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/qs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\n\nHow do you protect yourself"
+        android:textColor="@color/colorWhite"
+        android:textSize="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="clean your hands, Avoid touching eyes, nose and mouth. Make sure you, and the people around you, follow good respiratory hygiene. Stay home if you feel unwell.  If possible, avoid traveling to places"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <Button
+        android:id="@+id/fourb"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:text="DONE"
+        android:background="@drawable/custombutton"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="150dp"
+
+        />
+
+</FrameLayout>
