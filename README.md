@@ -1,4 +1,6 @@
 # COVID-AWARENESS
+ID : 170204116
+LAB GROUP : B1
 
 This mini quiz game was built based on the current situation to spread more awareness through out mass people... Stay safe. Stay updated
 
